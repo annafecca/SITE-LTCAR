@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.banner{
+    background-image: url(BANNER\ 2.png);
+    background-repeat: no-repeat;
+    
+}
+body {
+    font-size: 100%;
+    margin: 0;
+    background-color: #010A2B;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.conteudo {
+    margin: 100px 200px 0 200px;
+}
+
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Deixa o fundo levemente escuro */
+    z-index: 10;
+}
+
+.começo-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    left: 120px;
+}
+
+.começo-lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 0px;
+    padding-left: 200px;
+    list-style-type: none;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+.começo-itens {
+    padding-left: 300px;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 31px;
+}
+
+a:hover{
+    color: #00CF56;
+}
+
+.começo-logo {
+    padding-left: 200px;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: bolder;
+    font-size: 32px;
+    color: #00CF56;
+}
+
+
+/*parte do "oficina mecanica..."*/
+
+
+.meio-chamativo {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.começo-titulo {
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: bolder;
+    font-family: "Kantumruy Pro", sans-serif;
+}
+
+.começo-texto {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: "Kantumruy Pro", sans-serif;
+}
+
+.botao-orçamento {
+    margin: 50px;
+    width: 230px;
+    height: 42px;
+    background-color: #00CF56;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.botao-orçamento:hover {
+    background-color: #00CF56;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+/*main*/
+
+
+.meio-chamativo {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-bottom: 90px;
+    padding-top: 90px;
+}
+
+.titulo-meio {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #FFFFFF;
+    font-family: "Kantumruy Pro", sans-serif;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.topicos-gerais {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 90px;
+    display: flex;
+    gap: 64px;
+}
+
+.topico-um {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    padding-right: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.um-texto {
+    font-weight: normal;
+    font-size: 26px;
+    align-items: center;
+    text-align: center;
+}
+
+.dois-texto {
+    font-weight: normal;
+    font-size: 26px;
+    text-align: center;
+}
+
+.tres-texto {
+    font-weight: normal;
+    font-size: 26px;
+    text-align: center;
+}
+
+.certo-um {
+    align-items: center;
+    width: 89.3px;
+    height: 84.89;
+    padding-bottom: 30px;
+    margin-bottom: 15px;
+}
+
+.primeiro-topico {
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+
+.topico-dois {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.certo-dois {
+    align-items: center;
+    width: 89.3px;
+    height: 84.89;
+    padding-bottom: 30px;
+    margin-bottom: 15px;
+}
+
+.segundo-topico {
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+
+.topicos-tres {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    padding-left: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.certo-tres {
+    align-items: center;
+    width: 89.3px;
+    height: 84.89;
+    padding-bottom: 30px;
+    margin-bottom: 15px;
+}
+
+.terceiro-topico {
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+
+
+/*footer*/
+
+.fim-do-site {
+    border-top: 3px solid #00CF56;
+}
+
+.finais-gerais {
+    display: flex;
+    flex-direction: row;
+}
+
+.ltcar-fim {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color: #00CF56;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.ltcar-texto {
+    font-weight: 300px;
+    font-size: 20px;
+}
+
+.contato-fim {
+    padding-top: 15px;
+    color: #00CF56;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.social-fim {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color: #00CF56;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.primeiro-endereco {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.segundo-endereco {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+
+.ltcar-despedida {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-family: "Kantumruy Pro", sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.contato-final {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.primeiro-endereço {
+    color: #FFFFFF;
+    font-family: "Kantumruy Pro", sans-serif;
+}
+
+.segundo-endereço {
+    color: #FFFFFF;
+    font-family: "Kantumruy Pro", sans-serif;
+}
+
+.contato-fim {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: "Kantumruy Pro", sans-serif;
+}
+
+.telefone-final {
+    display: flex;
+    flex-direction: row;
+}
+
+.wpp-final {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-final {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-family: "Kantumruy Pro", sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.imagens-social {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.facebook {
+    padding-right: 26px;
+}
+
+.instagram {
+    padding-right: 26px;
+}
+
+.linkedin {
+    padding-right: 26px;
+}
+
+.ultimo-texto {
+    padding-top: 60px;
+    color: #ADABC4;
+    font-family: "Kantumruy Pro", sans-serif;
+    text-align: center;
+}
+
+
+/*quem somos*/
+
+
+.foto-texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.ltcar-frente {
+    width: 499px;
+    height: 374px;
+}
+
+.texto-foto {
+    padding-top: 40px;
+    color: #FFFFFF;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+
+}
+
+.titulo-grande{
+    color: #FFFFFF;
+    font-family: "Kantumruy Pro", sans-serif;
+}
+
+.titulo-texto{
+    padding-left:40px;
+}
+.texto-grande{
+    padding-top: 32px;
+    color: #FFFFFF;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.textos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 70px;
+
+}
+
+
+.conteudo-quem-somos {
+    margin: 100px 200px 0 200px;
+}
+
+
+/*agendar orçamento*/
+.agende{
+    font-family: "Kantumruy Pro", sans-serif;
+    color: #FFFFFF;
+    font-size: 32px;
+    font-style: bolder;
+
+}
+
+.agendar-orçamento{
+    display: flex;
+    flex-direction: row;
+    height: 99px;
+    background-color: #00CF56;
+    align-items: center;
+}
+
+.botao-orçamento-2 {
+    margin: 50px;
+    width: 230px;
+    height: 42px;
+    background-color: #00CF56;
+    font-family: "Kantumruy Pro", sans-serif;
+    stroke-width: 2px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-radius: 5px; 
+    border: 2px solid #FFFFFF; 
+}
+
+/*Serviços*/
+
